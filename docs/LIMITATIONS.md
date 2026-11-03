@@ -1,7 +1,7 @@
 # Beta limitations
 
-- Currency and transaction parsing focus on LKR / Rs alerts. Sender selection does not guarantee that every message format can be parsed.
-- Regression examples include selected HNB INTERNET and account-credit formats, COMBANK card purchases/cancellations, and Amana CEFTS, POS and reversal formats. This is example coverage, not certification or universal support for those banks.
+- You can choose SMS senders from any bank. Tracking is not limited to Amana, HNB or Commercial Bank. Currency and automatic transaction parsing focus on LKR / Rs alerts; parsing depends on message format, not a fixed bank list.
+- Tested message examples include selected Amana, HNB and Commercial Bank alerts. These examples do not establish universal format support or bank certification. Unsupported messages from approved senders are retained for manual review.
 - OTPs, failed payments, statements and ambiguous messages are excluded from automatic money movements. All approved-sender messages may still be stored for review.
 - Unrecognized messages require review, explicit transaction recording or ignoring.
 - Amounts can reflect an authorization or approximation rather than final settlement. Validate against your records.

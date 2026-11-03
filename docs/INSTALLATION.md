@@ -24,7 +24,7 @@ Viyam is distributed as an APK outside Google Play and requests optional SMS per
 - **Installation blocked or harmful-app warning:** stop the installation and report the exact message through [GitHub Issues](https://github.com/atheeqrc/Viyam-Releases/issues). Include the Android version, Viyam version and a screenshot with personal information removed. The publisher can investigate and appeal an incorrect classification through Google's official process.
 - **Signing conflict or incompatible update:** keep your existing installation if you need its data; see Updates below. This is separate from a Play Protect decision.
 
-Google recommends keeping Play Protect enabled. Turning it off reduces protection and does not certify an APK as safe or guarantee installation. Use this current online guidance when reading the PDF's earlier installation walkthrough. [Google's Play Protect guidance](https://support.google.com/accounts/answer/2812853?hl=en) and [app verification appeals](https://support.google.com/android/answer/2992033?hl=en).
+Google recommends keeping Play Protect enabled. Turning it off reduces protection and does not certify an APK as safe or guarantee installation. This online guide provides current installation guidance alongside the illustrated PDF. [Google's Play Protect guidance](https://support.google.com/accounts/answer/2812853?hl=en) and [app verification appeals](https://support.google.com/android/answer/2992033?hl=en).
 
 Download only from this repository's official Releases page. A verified APK signature and matching SHA-256 checksum establish signing identity and file integrity; they do not establish Google Play approval or prove that a warning is incorrect.
 

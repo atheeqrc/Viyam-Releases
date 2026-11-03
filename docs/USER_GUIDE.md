@@ -10,6 +10,8 @@
 
 Sender names are identifiers, not verified bank identities. Carefully check the selected sender and its latest message.
 
+You can select SMS senders from any bank. Amana, HNB and Commercial Bank are tested examples, not an exclusive list. Automatic parsing varies by message format; unsupported approved-sender alerts remain available for manual review.
+
 ## Record and review
 
 Add manual expenses or income when needed. Imported transactions start unclassified: review each amount and assign a category. Merchant preferences suggest categories for later transactions; they do not silently approve them. A batch review can apply a category to explicitly selected matching pending transactions.

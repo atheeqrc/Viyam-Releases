@@ -48,6 +48,8 @@ Keep Play Protect enabled and accept a scan if offered. If installation is block
 - Explore reports by account, category, merchant and budget period.
 - Optionally import historical SMS from an exact start date and track new alerts.
 
+**Bank coverage:** You can choose SMS senders from any bank; tracking is not limited to Amana, HNB or Commercial Bank. Automatic parsing depends on the message format. Tested examples include alerts from those three banks. Unsupported messages from approved senders remain available for manual review.
+
 ## Privacy and control
 
 SMS access is optional; manual entry works without it. You choose which senders to track. The app scans incoming SMS for sender discovery when permitted, and saves messages from approved senders locally, including unsupported notices and OTPs from those senders. Unapproved-sender previews are transient.
