@@ -36,6 +36,7 @@ The current app requests no Internet permission, includes no analytics or advert
 - [Privacy and permissions](docs/PRIVACY.md)
 - [Known limitations and supported message examples](docs/LIMITATIONS.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
+- [Initial beta release notes and verification](docs/RELEASE_NOTES.md)
 
 ## Feedback
 
