@@ -10,7 +10,32 @@ Developed by [Atheeq Mahroof](https://github.com/atheeqrc) with Codex Agent. Thi
 
 Download the APK from [Releases](https://github.com/atheeqrc/Viyam-Releases/releases). Read the [installation guide](docs/INSTALLATION.md) before installing. Requires **Android 7.0 or later**.
 
+**[Read the illustrated feature guide (PDF)](docs/Viyam-1.0.0-Feature-Guide.pdf)** for a walkthrough of setup, accounts, budgets, classification and reports. For current installation and Play Protect guidance, use the [installation guide](docs/INSTALLATION.md#google-play-protect).
+
 Viyam is an early beta. Check imported amounts and classifications against your own records. There is currently **no export or restore feature**; uninstalling or clearing app storage deletes the local ledger.
+
+## A look inside Viyam
+
+<table>
+  <tr>
+    <th>Home</th>
+    <th>Activity</th>
+    <th>Reports</th>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/home.png" alt="Viyam Home with a spending ring, ranked categories and income and expense totals" width="260"></td>
+    <td><img src="assets/screenshots/activity.png" alt="Viyam Activity showing categorized income and expenses" width="260"></td>
+    <td><img src="assets/screenshots/reports.png" alt="Viyam Reports showing income after spending and an income and spending chart" width="260"></td>
+  </tr>
+</table>
+
+Screenshots show sample data. Some captures show earlier interface details; the feature guide describes version 1.0.0.
+
+## Google Play Protect
+
+Viyam is distributed here as an APK outside Google Play. Play Protect may recommend a scan, display a warning, or block installation. Google notes that apps installed from online sources that request sensitive permissions, including SMS access, can be blocked as part of fraud protection. The exact message can vary by device and protection settings. [Google's explanation](https://support.google.com/work/android/answer/15162069?hl=en).
+
+Keep Play Protect enabled and accept a scan if offered. If installation is blocked, stop and [report the exact warning](https://github.com/atheeqrc/Viyam-Releases/issues), together with your Android and Viyam versions. Remove personal information from screenshots. An APK signature or matching checksum confirms identity or file integrity; it does not mean Google has approved the app or establish that a warning is a false positive. See the [installation guide](docs/INSTALLATION.md#google-play-protect).
 
 ## What you can do
 
@@ -31,6 +56,7 @@ The current app requests no Internet permission, includes no analytics or advert
 
 ## Learn more
 
+- [Illustrated feature guide (PDF)](docs/Viyam-1.0.0-Feature-Guide.pdf)
 - [Getting started and everyday use](docs/USER_GUIDE.md)
 - [Installation, updates and APK verification](docs/INSTALLATION.md)
 - [Privacy and permissions](docs/PRIVACY.md)

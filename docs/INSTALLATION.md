@@ -14,7 +14,19 @@
 4. Allow that source if you choose to proceed, then install Viyam. You can turn that source permission off afterward.
 5. Open Viyam and follow the setup guide. SMS permission is optional.
 
-Android or Play Protect may show prompts for apps distributed outside Google Play. Review them before deciding whether to install. This distribution does not establish Google Play approval.
+After installing, you can turn off the browser or file manager's permission to install unknown apps. That source permission is separate from Play Protect scanning.
+
+## Google Play Protect
+
+Viyam is distributed as an APK outside Google Play and requests optional SMS permissions. Play Protect may recommend a scan, show a warning, or block installation. Google describes sensitive-permission blocks for apps downloaded through browsers, messaging apps or file managers as a financial-fraud protection measure. This is different from a warning that specifically identifies an app as harmful. Read the actual message shown on your device. [Google Play Protect warning types](https://support.google.com/work/android/answer/15162069?hl=en).
+
+- **Scan recommended:** keep Play Protect enabled and accept the scan if offered. Review its result before proceeding.
+- **Installation blocked or harmful-app warning:** stop the installation and report the exact message through [GitHub Issues](https://github.com/atheeqrc/Viyam-Releases/issues). Include the Android version, Viyam version and a screenshot with personal information removed. The publisher can investigate and appeal an incorrect classification through Google's official process.
+- **Signing conflict or incompatible update:** keep your existing installation if you need its data; see Updates below. This is separate from a Play Protect decision.
+
+Google recommends keeping Play Protect enabled. Turning it off reduces protection and does not certify an APK as safe or guarantee installation. Use this current online guidance when reading the PDF's earlier installation walkthrough. [Google's Play Protect guidance](https://support.google.com/accounts/answer/2812853?hl=en) and [app verification appeals](https://support.google.com/android/answer/2992033?hl=en).
+
+Download only from this repository's official Releases page. A verified APK signature and matching SHA-256 checksum establish signing identity and file integrity; they do not establish Google Play approval or prove that a warning is incorrect.
 
 ## Updates
 
