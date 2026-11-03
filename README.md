@@ -4,7 +4,7 @@
 
 Viyam is a local-first budgeting app for tracking expenses, income and investment movements in Sri Lankan rupees (LKR). Add transactions manually or optionally use bank SMS alerts to reduce typing.
 
-Built by [Atheeq](https://github.com/atheeqrc) with Kotlin, native Android Views and Material Components. This repository contains public documentation and downloadable builds. The application source is maintained privately.
+Developed by [Atheeq Mahroof](https://github.com/atheeqrc) with Codex Agent. This repository contains public documentation and downloadable builds. The application source is maintained privately.
 
 ## Download
 
@@ -36,7 +36,7 @@ The current app requests no Internet permission, includes no analytics or advert
 - [Privacy and permissions](docs/PRIVACY.md)
 - [Known limitations and supported message examples](docs/LIMITATIONS.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
-- [Initial beta release notes and verification](docs/RELEASE_NOTES.md)
+- [Initial beta release notes](docs/RELEASE_NOTES.md)
 
 ## Feedback
 

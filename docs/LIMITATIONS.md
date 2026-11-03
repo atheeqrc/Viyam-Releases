@@ -10,6 +10,6 @@
 - Existing history may be incomplete, especially after changing the tracking date or sender selection. Automatic duplicate detection is based on source identifiers and available timestamps, not bank reconciliation.
 - Android permission settings and device background restrictions can affect live SMS capture and notifications. Review history if alerts appear to be missing.
 - No export, restore, cloud synchronization or automatic app updater is included. Uninstalling or clearing storage deletes the ledger.
-- A public release key can differ from an existing debug installation's key. Do not uninstall a debug build to bypass a signing conflict if you need its data.
+- Updates require a compatible signing certificate. If an update fails, do not uninstall Viyam or clear storage if you need its records.
 
 Beta builds may contain bugs. Report reproducible issues using synthetic examples at [GitHub Issues](https://github.com/atheeqrc/Viyam-Releases/issues).

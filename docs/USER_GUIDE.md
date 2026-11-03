@@ -40,4 +40,4 @@ Use **Settings > Import history** and choose the exact start date. Existing sour
 
 ## Keep your data
 
-There is no export or restore in this beta. Avoid uninstalling or clearing app storage. See the [installation guide](INSTALLATION.md) before updating an existing development build.
+There is no export or restore in this beta. Avoid uninstalling or clearing app storage. See the [installation guide](INSTALLATION.md) before updating Viyam.

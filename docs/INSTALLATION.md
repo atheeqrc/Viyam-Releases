@@ -16,11 +16,11 @@
 
 Android or Play Protect may show prompts for apps distributed outside Google Play. Review them before deciding whether to install. This distribution does not establish Google Play approval.
 
-## Updates and existing development builds
+## Updates
 
 Download the next APK from this repository and install it over the existing release. An in-place update requires a compatible application ID and signing certificate and an acceptable version code. Viyam does not currently include an automatic updater.
 
-**If you already use a development/debug build, stop if Android reports a signing conflict. Do not uninstall or clear storage to fix it.** A release signed with a different key cannot replace that installation directly. The app currently has no export/restore feature; uninstalling would erase its ledger. Keep your existing installation until you have a data-preserving migration plan.
+**If Android reports a signing conflict, do not uninstall Viyam or clear storage if you need its records.** Updates must use a compatible signing certificate. The app currently has no export/restore feature; uninstalling would erase its ledger. Keep your existing installation and report the update problem through GitHub Issues without sharing personal financial information.
 
 The public release uses application ID `com.atheeq.viyam`.
 
