@@ -8,11 +8,11 @@ Developed by [Atheeq Mahroof](https://github.com/atheeqrc) with Codex Agent. Thi
 
 ## Download
 
-**[Download Viyam 1.0.1 beta 1](https://github.com/atheeqrc/Viyam-Releases/releases/download/v1.0.1-beta.1/Viyam-1.0.1-beta.1.apk)** or browse [Releases](https://github.com/atheeqrc/Viyam-Releases/releases). Version 1.0.1 fixes the Android 10 startup failure in the initial beta. Read the [installation guide](docs/INSTALLATION.md) before installing. Requires **Android 7.0 or later**.
+**[Download Viyam 1.0.1](https://github.com/atheeqrc/Viyam-Releases/releases/download/v1.0.1-beta.1/Viyam-1.0.1-beta.1.apk)** or browse [Releases](https://github.com/atheeqrc/Viyam-Releases/releases). Version 1.0.1 fixes the Android 10 startup failure in the initial beta. Read the [installation guide](docs/INSTALLATION.md) before installing. Requires **Android 7.0 or later**.
 
 **[Read the illustrated feature guide (PDF)](docs/Viyam-1.0.0-Feature-Guide.pdf)** for a walkthrough of setup, accounts, budgets, classification and reports. For current installation and Play Protect guidance, use the [installation guide](docs/INSTALLATION.md#google-play-protect).
 
-Viyam is an early beta. Check imported amounts and classifications against your own records. There is currently **no export or restore feature**; uninstalling or clearing app storage deletes the local ledger.
+Check imported amounts and classifications against your own records. There is currently **no export or restore feature**; uninstalling or clearing app storage deletes the local ledger.
 
 ## A look inside Viyam
 
@@ -64,7 +64,7 @@ The current app requests no Internet permission, includes no analytics or advert
 - [Privacy and permissions](docs/PRIVACY.md)
 - [Known limitations and supported message examples](docs/LIMITATIONS.md)
 - [Third-party notices](THIRD_PARTY_NOTICES.md)
-- [Latest beta release notes](docs/RELEASE_NOTES.md)
+- [Latest release notes](docs/RELEASE_NOTES.md)
 
 ## Feedback
 

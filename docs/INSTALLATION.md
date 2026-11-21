@@ -62,4 +62,4 @@ The signing certificate fingerprint is recorded in the release notes. Developers
 
 ## Data retention
 
-Keep Viyam installed if you need its history. Uninstalling or clearing storage deletes local records. Android backup is disabled and there is no cloud synchronization, export or restore in this beta.
+Keep Viyam installed if you need its history. Uninstalling or clearing storage deletes local records. Android backup is disabled and there is no cloud synchronization, export or restore in this version.

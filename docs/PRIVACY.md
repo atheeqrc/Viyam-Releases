@@ -1,6 +1,6 @@
 # Privacy notice
 
-Effective date: 3 November 2026. Applies to the initial Viyam Android beta distributed here.
+Effective date: 3 November 2026. Applies to the Viyam Android releases distributed here.
 
 ## Data kept on your phone
 
@@ -32,7 +32,7 @@ Transaction notifications may show financial details such as a merchant and amou
 
 ## Removal and backups
 
-Uninstalling Viyam or clearing its app storage deletes its local data. **This is irreversible in the current beta:** no export, restore or cloud sync is provided. If an update fails, keep the existing installation if you need its records.
+Uninstalling Viyam or clearing its app storage deletes its local data. **This is irreversible in the current version:** no export, restore or cloud sync is provided. If an update fails, keep the existing installation if you need its records.
 
 ## GitHub and feedback
 

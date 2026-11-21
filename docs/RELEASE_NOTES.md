@@ -1,11 +1,11 @@
-# Viyam 1.0.1 beta 1
+# Viyam 1.0.1
 
 Released 21 November 2026. Android compatibility update.
 
 ## Fixed
 
 - Fixes a launch failure on Android 10 in the initial 1.0.0 beta release.
-- Retains the existing features and local data format. This is the recommended beta for new installations and release updates.
+- Retains the existing features and local data format. This is the recommended release for new installations and updates.
 
 ## Release details
 
@@ -29,8 +29,8 @@ Signing certificate SHA-256:
 
 ## Installation and data
 
-Install this APK over a compatible existing public release. Debug builds use a different signing key and may not accept this update. Do not uninstall or clear storage if you need saved records: this beta has no export or restore.
+Install this APK over a compatible existing public release. Debug builds use a different signing key and may not accept this update. Do not uninstall or clear storage if you need saved records: this version has no export or restore.
 
 See the [installation guide](INSTALLATION.md), [privacy notice](PRIVACY.md), [user guide](USER_GUIDE.md) and [known limitations](LIMITATIONS.md). The illustrated PDF describes the 1.0.0 feature set; this patch fixes startup compatibility.
 
-This remains a public beta. Review recorded amounts and classifications against your records.
+Review recorded amounts and classifications against your records.

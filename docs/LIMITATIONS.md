@@ -1,4 +1,4 @@
-# Beta limitations
+# Known limitations
 
 - You can choose SMS senders from any bank. Tracking is not limited to Amana, HNB or Commercial Bank. Currency and automatic transaction parsing focus on LKR / Rs alerts; parsing depends on message format, not a fixed bank list.
 - Tested message examples include selected Amana, HNB and Commercial Bank alerts. These examples do not establish universal format support or bank certification. Unsupported messages from approved senders are retained for manual review.
@@ -12,4 +12,4 @@
 - No export, restore, cloud synchronization or automatic app updater is included. Uninstalling or clearing storage deletes the ledger.
 - Updates require a compatible signing certificate. If an update fails, do not uninstall Viyam or clear storage if you need its records.
 
-Beta builds may contain bugs. Report reproducible issues using synthetic examples at [GitHub Issues](https://github.com/atheeqrc/Viyam-Releases/issues).
+Report reproducible issues using synthetic examples at [GitHub Issues](https://github.com/atheeqrc/Viyam-Releases/issues).
