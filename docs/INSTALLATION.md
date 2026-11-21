@@ -41,19 +41,19 @@ The public release uses application ID `com.atheeq.viyam`.
 Each published APK should have a matching entry in the release's `SHA256SUMS.txt`. On Windows PowerShell:
 
 ```powershell
-Get-FileHash .\Viyam-1.0.0-beta.1.apk -Algorithm SHA256
+Get-FileHash .\Viyam-1.0.1-beta.1.apk -Algorithm SHA256
 ```
 
 On macOS:
 
 ```sh
-shasum -a 256 Viyam-1.0.0-beta.1.apk
+shasum -a 256 Viyam-1.0.1-beta.1.apk
 ```
 
 On Linux:
 
 ```sh
-sha256sum Viyam-1.0.0-beta.1.apk
+sha256sum Viyam-1.0.1-beta.1.apk
 ```
 
 Compare the complete value with `SHA256SUMS.txt` from the same official release. A matching hash confirms file equality, not an independent security audit.

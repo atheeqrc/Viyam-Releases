@@ -1,29 +1,24 @@
-# Viyam 1.0.0 beta 1
+# Viyam 1.0.1 beta 1
 
-Released 3 November 2026. First public evaluation build.
+Released 21 November 2026. Android compatibility update.
 
-## Included
+## Fixed
 
-- Manual income/expense entry and optional bank SMS tracking.
-- Multiple accounts, custom categories, monthly and category budgets.
-- Review of original approved-sender messages and unsupported alerts.
-- Confirmation workflows for own-account transfers, investments and reversals.
-- Reports by account, period, category and merchant.
-- Local storage, optional SMS access, and no Internet permission.
-
-See the [user guide](USER_GUIDE.md), [privacy notice](PRIVACY.md) and [known limitations](LIMITATIONS.md).
+- Fixes a launch failure on Android 10 in the initial 1.0.0 beta release.
+- Retains the existing features and local data format. This is the recommended beta for new installations and release updates.
 
 ## Release details
 
-- APK: `Viyam-1.0.0-beta.1.apk` (3,092,278 bytes).
-- In-app version: `1.0.0`, version code `2`; the GitHub release marks this build as beta.
-- Application ID: `com.atheeq.viyam`; minimum Android 7.0 / API 24; target API 37.
-- Signed APK with a SHA-256 checksum provided for download verification.
+- APK: `Viyam-1.0.1-beta.1.apk` (5233580 bytes).
+- In-app version: `1.0.1`, version code `3`.
+- Application ID: `com.atheeq.viyam`; minimum Android 7.0 / API 24.
+- Uses the same signing certificate as the previous public release.
+- Startup, manual setup, sample expense classification and data persistence after an in-place reinstall were verified on Android 10. The 198 JVM unit tests pass; release lint reports zero errors and 46 warnings.
 
 APK SHA-256:
 
 ```text
-864d0df6821a266378259b96a2a203f8d5b796172ed3650e7460dce1dee17fc7
+01d7c9bd18c68f5116c8905fc13e13ab0f65c73b22df34ab4302a28b07ea6b14
 ```
 
 Signing certificate SHA-256:
@@ -32,8 +27,10 @@ Signing certificate SHA-256:
 37f94ac501b56829b16a93d5e178532c97d7c1a05db43145dea3580760935316
 ```
 
-## Before installing
+## Installation and data
 
-This beta has no export or restore. Uninstalling or clearing storage deletes its ledger. If Android cannot update an existing installation, do not uninstall it or clear storage if you need its records. See [installation and updates](INSTALLATION.md).
+Install this APK over a compatible existing public release. Debug builds use a different signing key and may not accept this update. Do not uninstall or clear storage if you need saved records: this beta has no export or restore.
 
-Amounts and reports require user review and are not bank-reconciled balances. Test with sample data before relying on this beta for your records.
+See the [installation guide](INSTALLATION.md), [privacy notice](PRIVACY.md), [user guide](USER_GUIDE.md) and [known limitations](LIMITATIONS.md). The illustrated PDF describes the 1.0.0 feature set; this patch fixes startup compatibility.
+
+This remains a public beta. Review recorded amounts and classifications against your records.
