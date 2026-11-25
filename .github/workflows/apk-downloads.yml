@@ -32,13 +32,19 @@ jobs:
                 [.[] | .assets[] | select(.name | ascii_downcase | endswith(".apk")) | .download_count] | add // 0;
               [.[][] | select(.draft == false)] |
               {latest: (map(select(.tag_name == $latest_tag)) | apk_downloads), total: apk_downloads}')
-          content=$(printf '%s\n' "$counts" | base64 -w 0)
-          endpoint="repos/$GITHUB_REPOSITORY/contents/assets/apk-downloads.json"
-          existing=$(gh api "$endpoint")
-          if [[ $(jq -r '.content' <<< "$existing" | tr -d '\n') == "$content" ]]; then
-            echo "APK download counts already up to date. $counts"
-            exit 0
-          fi
-          sha=$(jq -r '.sha' <<< "$existing")
-          gh api --method PUT "$endpoint" --silent -f message='Update APK download badge' -f sha="$sha" -f content="$content"
-          echo "Updated APK download counts. $counts"
+
+          update_badge() {
+            local endpoint="repos/$GITHUB_REPOSITORY/contents/assets/$1" label="$2" count="$3"
+            local badge content existing sha
+            badge=$(jq -cn --arg label "$label" --arg count "$count" '{schemaVersion: 1, label: $label, message: $count, color: "blue"}')
+            content=$(printf '%s\n' "$badge" | base64 -w 0)
+            existing=$(gh api "$endpoint")
+            if [[ $(jq -r '.content' <<< "$existing" | tr -d '\n') != "$content" ]]; then
+              sha=$(jq -r '.sha' <<< "$existing")
+              gh api --method PUT "$endpoint" --silent -f message='Update APK download badge' -f sha="$sha" -f content="$content"
+            fi
+            echo "$label: $count"
+          }
+
+          update_badge latest-apk-downloads.json 'Latest APK downloads' "$(jq -r '.latest' <<< "$counts")"
+          update_badge apk-downloads.json 'Total APK downloads' "$(jq -r '.total' <<< "$counts")"
