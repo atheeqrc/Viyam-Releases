@@ -8,8 +8,8 @@ Developed by [Atheeq Mahroof](https://github.com/atheeqrc) with Codex Agent. Thi
 
 ## Download
 
-[![Viyam 1.0.2 APK download count](https://img.shields.io/github/downloads/atheeqrc/Viyam-Releases/v1.0.2/Viyam-1.0.2.apk?displayAssetName=false&label=APK%20downloads&color=blue)](https://github.com/atheeqrc/Viyam-Releases/releases/tag/v1.0.2)
-[![Total downloads across all Viyam APKs](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fatheeqrc%2FViyam-Releases%2Fmain%2Fassets%2Fapk-downloads.json)](https://github.com/atheeqrc/Viyam-Releases/releases)
+[![Latest APK downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fatheeqrc%2FViyam-Releases%2Fmain%2Fassets%2Fapk-downloads.json&query=%24.latest&label=Latest%20APK%20downloads&color=blue)](https://github.com/atheeqrc/Viyam-Releases/releases/latest)
+[![Total APK downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fatheeqrc%2FViyam-Releases%2Fmain%2Fassets%2Fapk-downloads.json&query=%24.total&label=Total%20APK%20downloads&color=blue)](https://github.com/atheeqrc/Viyam-Releases/releases)
 
 **[Download Viyam 1.0.2](https://github.com/atheeqrc/Viyam-Releases/releases/download/v1.0.2/Viyam-1.0.2.apk)** or browse [Releases](https://github.com/atheeqrc/Viyam-Releases/releases). Version 1.0.2 adds optional background checks for missed bank SMS. Read the [installation guide](docs/INSTALLATION.md) before installing. Requires **Android 7.0 or later**.
 
