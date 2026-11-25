@@ -40,6 +40,8 @@ Reports show recorded income and spending, categories, merchants and investment 
 
 Use **Settings > Import history** and choose the exact start date. Existing source IDs are used to avoid duplicate imports while preserving user decisions. Changing sender tracking does not erase existing history. Discovery can show senders outside the chosen date range because sender discovery and transaction import serve different purposes.
 
+In **Settings > Bank SMS > Automatic inbox check**, select 15 minutes, 30 minutes or 1 hour to look for missed messages from approved senders. The setting starts off. Android can delay checks and controls when protected messages become readable. The first check covers up to 24 hours within your tracking period. Use **Import history** for older messages. Newly recovered alerts that need review can prompt a notification if notifications are enabled.
+
 ## Keep your data
 
 There is no export or restore in this version. Avoid uninstalling or clearing app storage. See the [installation guide](INSTALLATION.md) before updating Viyam.

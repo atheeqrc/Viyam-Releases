@@ -16,11 +16,13 @@ You approve the senders to track. Historical imports retain messages from approv
 
 Original messages remain stored with records. Ignoring a message excludes it from review and accounting but retains its text and source ID so re-import does not revive it. Stopping a sender's tracking does not erase existing history. Revoking SMS permission in Android settings stops further SMS access but does not delete records already stored.
 
+Automatic inbox checks are off by default. If you enable them, Viyam periodically reads the inbox on your device to recover missed SMS from approved senders within your tracking period.
+
 ## Permissions
 
 | Permission | Purpose |
 | --- | --- |
-| Read SMS (`READ_SMS`) | Discover senders, preview messages and import selected history. Optional. |
+| Read SMS (`READ_SMS`) | Discover senders, preview messages, import selected history and run optional inbox checks. |
 | Receive SMS (`RECEIVE_SMS`) | Track new alerts from approved senders after the tracking boundary. Optional. |
 | Notifications (`POST_NOTIFICATIONS`) | Show transaction review notifications; requested on Android 13 and later. |
 
