@@ -1,0 +1,41 @@
+name: Update APK download badge
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  release:
+    types: [published]
+  push:
+    branches: [main]
+    paths: ['.github/workflows/apk-downloads.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk-download-badge
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Count published APK downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          count=$(gh api --paginate --slurp "repos/$GITHUB_REPOSITORY/releases?per_page=100" |
+            jq '[.[][] | select(.draft == false) | .assets[] |
+              select(.name | ascii_downcase | endswith(".apk")) | .download_count] | add // 0')
+          badge=$(jq -cn --arg count "$count" '{schemaVersion: 1, label: "Total APK downloads", message: $count, color: "blue"}')
+          content=$(printf '%s\n' "$badge" | base64 -w 0)
+          endpoint="repos/$GITHUB_REPOSITORY/contents/assets/apk-downloads.json"
+          existing=$(gh api "$endpoint")
+          if [[ $(jq -r '.content' <<< "$existing" | tr -d '\n') == "$content" ]]; then
+            echo "Badge already shows $count APK downloads."
+            exit 0
+          fi
+          sha=$(jq -r '.sha' <<< "$existing")
+          gh api --method PUT "$endpoint" --silent -f message='Update APK download badge' -f sha="$sha" -f content="$content"
+          echo "Updated badge to $count APK downloads."
